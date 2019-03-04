@@ -1,3 +1,22 @@
 /* body {
   background-color: #45d9a3;
 } */
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
