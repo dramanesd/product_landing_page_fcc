@@ -1,8 +1,46 @@
+/* General Styles */
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.btn {
+  color: #fff;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 100;
+  border-radius: 2px;
+}
+
+.primary {
+  background-color: #d45829;
+  border: 1px solid #d45829;
+}
+
+.primary:focus,
+.primary:active,
+.primary:hover {
+  background-color: #eb4404;
+  border: 1px solid #eb4404; /* #be3602 */
+}
+
+.secondary {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.secondary:focus,
+.secondary:active,
+.secondary:hover {
+  color: #d45829;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* General Styles */
 
 #header {
   width: 100%;
@@ -79,6 +117,32 @@ body {
   list-style: none;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.description h1 {
+  font-size: 44px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  margin-top: 2.5em;
+}
+
+.description h4 {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.description .btn {
+  margin: 1.5em 0.5em;
 }
 
 @media only screen and (max-width: 500px) {
